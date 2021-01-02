@@ -1,0 +1,108 @@
+.fa {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    width: 35px;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    float: right;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }  
+  h2{
+    font-size: 2rem;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+
+  .footer1 {
+    margin-top: 3rem;
+    overflow: hidden;
+    background: #262626;
+    color: #627482 !important;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.footer2
+{
+  padding-left: 5rem;
+}
+
+
+.frm
+{
+  padding-left: 20rem;
+}
+
+.logo
+{
+  padding-left: 3rem;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+
+.one
+{
+  padding-left: 2rem;
+}
+
+@media screen and (max-width: 767px){
+
+  h2{
+    font-size: 1.5rem;
+    text-align: center;
+    margin:0!important;
+    padding: 0!important;
+  }
+  .footer2
+{
+  padding-left: 1rem;
+}
+	.dropdown-menu .dropdown-toggle:after{
+		border-top: .3em solid transparent;
+	    border-right: 0;
+	    border-bottom: .3em solid transparent;
+	    border-left: .3em solid;
+	}
+	.dropdown-menu .dropdown-menu{
+		margin-left:0; margin-right: 0;
+	}
+.dropdown-menu
+{
+  width: fit-content;
+}
+  .frm
+{
+  padding: 0!important;;
+}
+}
